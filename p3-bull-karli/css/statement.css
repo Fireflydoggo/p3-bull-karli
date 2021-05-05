@@ -1,0 +1,144 @@
+/*================================
+
+Universal Styling
+
+*================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Fredericka the Great', cursive;
+  src: url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+  font-family: 'Permanent Marker', cursive;
+  src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
+}
+
+/*=====================================
+
+Header Styling
+
+*======================================*/
+
+header {
+  background: rgb(0 0 0 / 50%);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  color: White;
+  text-align: left;
+  font-size: 18px;
+  z-index: 100;
+  top: .5%;
+  padding-left: 20px;
+  width: 25%;
+  display: inline-block;
+}
+
+nav {
+  width: 74%;
+  display: inline-block;
+}
+
+header nav li {
+  font-family: 'Permanent Marker', cursive;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+header nav ul {
+  text-align: right;
+  font-size: 30%;
+}
+
+header a {
+  color: White;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 18px;
+}
+
+header a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/*====================================
+
+Main Body Style
+
+*===================================*/
+
+body {
+  display: inline-block;
+  background-image: url('../images/statement.jpg');
+  background-size: cover;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 2px 3px 4px #000000;
+  position: relative;
+  display: inline-block;
+  top: -420px;
+  z-index: 100;
+  left: 520px;
+}
+
+.highlight {
+  color: turquoise;
+}
+
+.center {
+   position: relative;
+   display: inline-block;
+   max-width: 265px;
+   padding-top: 65px;
+   left: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+p {
+  position: relative;
+  display: inline-block;
+  font-family: 'Fredericka the Great', cursive;
+  color: White;
+  width: 270px;
+  padding: 20px;
+  margin: auto;
+  text-shadow: 3px 3px 3px #000000;
+  font-size: 16px;
+  left: 170px;
+  top: -80px;
+  -moz-box-shadow: 0px 0px 15px #777777;
+  -webkit-box-shadow: 0px 0px 15px #777777;
+  box-shadow: 0px 0px 15px #777777;
+ }
+
+section {
+  padding: 20px 0;
+  position: relative;
+  display: inline-block;
+}
+
+figure {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
